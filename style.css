@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+  background: #2d2d2d;
+  color: #fff;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+a {
+  display: inline-block;
+  padding: 8px 25px;
+  background-color: #cbeca6;
+  font-size: 22px;
+  color: salmon;
+  text-decoration: none;
+  border-radius: 8px;
+}
