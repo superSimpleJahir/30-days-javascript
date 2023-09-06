@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #2d2d2d;
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+}
+
+input {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  color: blueviolet;
+  font-size: 20px;
+  text-transform: capitalize;
+  background: beige;
+}
+
+input::placeholder {
+  color: rgb(88, 65, 65);
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  background: beige;
+  color: brown;
+  margin-bottom: 20px;
+}
+
+span {
+  color: yellow;
+}
