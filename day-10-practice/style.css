@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #414141;
+  color: #fff;
+  text-align: center;
+  margin-top: 100px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  margin: 20px 10px;
+  transition: .5s;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: .5;
+}
+
+p {
+  font-size: 25px;
+}
+
+#ruseltPrint {
+  color: red;
+  font-size: 30px;
+  background-color: #414141;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
