@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+  padding: 1rem;
+}
+
+.card {
+  background: #222;
+  color: #fff;
+  padding: 1rem;
+  min-height: 80vh;
+  width: 50%;
+  overflow: scroll;
+  border-radius: 0.6rem;
+}
+
+.card_title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+input {
+  border: none;
+  border-radius: 0.6rem;
+  padding: 0.5rem;
+  width: 80%;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  border: none;
+  border-radius: 0.6rem;
+  padding: 0.5rem;
+  background: orange;
+  color: #fff;
+  transition: all 0.3s;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #000;
+}
+
+#addTodoButton {
+  width: 19%;
+}
+
+li .todovalue {
+  font-size: 25px;
+}
+
+.li_style {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #333;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 0.6rem;
+  margin: 10px 0;
+  transition: all 0.3s;
+}
+
+.li_style:hover {
+  background: #111;
+}
+
+.bg_success {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  color: #000;
+  background: #ddffdd;
+  border-left: 6px solid #04aa6d;
+  font-size: 25px;
+}
+
+.bg_danger {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  color: #000;
+  background: #ffdddd;
+  border-left: 6px solid #f44336;
+  font-size: 25px;
+}

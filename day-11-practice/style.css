@@ -1,0 +1,15 @@
+body {
+  color: #fff;
+  background: #414141;
+}
+
+.porject {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.key {
+  font-size: 30px;
+}
